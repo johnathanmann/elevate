@@ -1,0 +1,14 @@
+nav{
+    margin: 10px 0px;
+    color: var(--black);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 2px var(--black);
+}
+
+nav img{
+    height: calc(1.425rem + 2.1vw);
+    width: calc(1.425rem + 2.1vw);
+    margin: 10px 0px 15px 0px;
+}

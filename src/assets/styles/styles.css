@@ -1,0 +1,27 @@
+:root{
+    --black: #2e3138;
+}
+
+.bely-display{
+    font-family: "bely-display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bely-bold{
+    font-family: "bely", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.kepler{
+    font-family: "kepler-std", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.kepler-italic{
+    font-family: "kepler-std", serif;
+    font-weight: 400;
+    font-style: italic;
+}
