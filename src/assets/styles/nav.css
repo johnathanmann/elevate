@@ -1,5 +1,6 @@
 nav{
     margin: 10px 0px;
+    padding-bottom: p5x;
     color: var(--black);
     width: 100%;
     display: flex;
@@ -7,8 +8,11 @@ nav{
     border-bottom: solid 2px var(--black);
 }
 
+nav h1{
+    font-size: calc(1rem + 1vw);
+}
+
 nav img{
-    height: calc(1.425rem + 2.1vw);
-    width: calc(1.425rem + 2.1vw);
-    margin: 10px 0px 15px 0px;
+    height: calc(1rem + 1vw);
+    width: calc(1rem + 1vw);
 }

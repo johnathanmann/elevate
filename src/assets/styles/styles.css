@@ -1,5 +1,10 @@
 :root{
     --black: #2e3138;
+    --beige: #f5f2e7;
+}
+
+body{
+    background-color: var(--beige) !important;
 }
 
 .bely-display{
