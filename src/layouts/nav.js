@@ -18,6 +18,7 @@ export default function Nav(){
                 <img onClick={() => openMenu()} src={hamburger}alt="Hamburger icon, three small horizontal bars indicating a menu"/>
             </nav>
             <div id="nav-menu">
+                <button onClick={() => closeMenu()}>Back</button>
                 <ul>
                     <li>Home</li>
                     <li>About</li>
