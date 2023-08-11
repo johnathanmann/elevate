@@ -1,10 +1,12 @@
 :root{
     --black: #2e3138;
     --beige: #f5f2e7;
+    --green: #869d7a;
 }
 
 body{
     background-color: var(--beige) !important;
+    overflow-x: hidden;
 }
 
 .bely-display{

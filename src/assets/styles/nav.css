@@ -1,3 +1,7 @@
+#nav{
+    overflow: hidden;
+}
+
 nav{
     margin: 10px 0px;
     padding-bottom: p5x;
@@ -15,4 +19,32 @@ nav h1{
 nav img{
     height: calc(1rem + 1vw);
     width: calc(1rem + 1vw);
+}
+
+#nav-menu{
+    position: fixed;
+    top: 0;
+    right: -110vw;
+    background-color: var(--green);
+    height: 100vh;
+    width: 100vw;
+}
+
+ul{
+    list-style: none;
+}
+
+.dim{
+    background-color: black;
+}
+
+.slide-over{
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide {
+    0% { right: -110vw;}
+    100%   { right: 0vw;}   
 }
