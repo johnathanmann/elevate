@@ -1,11 +1,11 @@
 :root{
     --black: #2e3138;
-    --beige: #f5f2e7;
+    --cream: #f5f2e7;
     --green: #869d7a;
 }
 
 body{
-    background-color: var(--beige) !important;
+    background-color: var(--cream) !important;
     overflow-x: hidden;
 }
 
@@ -31,4 +31,12 @@ body{
     font-family: "kepler-std", serif;
     font-weight: 400;
     font-style: italic;
+}
+
+.cream{
+    color: var(--cream);
+}
+
+.black{
+    color: var(--black);
 }
