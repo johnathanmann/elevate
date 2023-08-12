@@ -1,5 +1,7 @@
 #nav{
     overflow: hidden;
+    position: relative;
+    z-index: 3;
 }
 
 nav{

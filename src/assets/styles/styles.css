@@ -33,6 +33,10 @@ body{
     font-style: italic;
 }
 
+.header{
+    font-size: calc(1.625rem + 10.5vw);
+}
+
 .cream{
     color: var(--cream);
 }
