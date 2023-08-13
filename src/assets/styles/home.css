@@ -1,14 +1,14 @@
 #homepage header h1{
-   position: sticky;
+   position: absolute;
     z-index: 2;
+    top: 10vh;
 }
 
 #contain{
     height: 75vh;
     width: 80vw;
     margin: auto;
-    position: relative;
-    top: -15vh;
+    margin-top: 100px;
 }
 
 #homepage header img{
@@ -19,10 +19,19 @@
     z-index: 1;
 }
 
+#seperator{
+    background-color: var(--green);
+    border-bottom: solid 2px var(--black);
+    border-top: solid 2px var(--black);
+    overflow-x: hidden;
+}
+
 @media(max-width: 768px) {
-    #contain{
-        height: 60vh;
+    #homepage header img{
         width: 90vw;
-        top: -10vh;
+    }
+    #contain{
+       height: 40vh;
+       margin-top: 50px;
     }
 }

@@ -44,3 +44,9 @@ body{
 .black{
     color: var(--black);
 }
+
+@media(max-width: 768px) {
+    .header{
+        font-size: calc(1.625rem + 7.5vw);
+    }
+}
