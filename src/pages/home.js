@@ -12,7 +12,7 @@ export default function Homepage(){
             </header>
             </section>
             <section className="container-fluid text-center" id="seperator">
-                <p>Good Coffee ~ Good Times ~ Good People </p>
+            <h1 className="kepler-italic black my-2">Where coffee meets elegance</h1>
             </section>
         </div>
     )
