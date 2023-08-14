@@ -2,6 +2,7 @@
     --black: #2e3138;
     --cream: #f5f2e7;
     --green: #869d7a;
+    --top-curve: 50px 50px 0px 0px;
 }
 
 body{
@@ -15,9 +16,9 @@ body{
     font-style: normal;
 }
 
-.bely-bold{
+.bely{
     font-family: "bely", serif;
-    font-weight: 700;
+    font-weight: 100;
     font-style: normal;
 }
 
@@ -43,6 +44,10 @@ body{
 
 .black{
     color: var(--black);
+}
+
+.p-text{
+    font-size: 26px;
 }
 
 @media(max-width: 768px) {

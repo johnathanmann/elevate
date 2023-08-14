@@ -4,7 +4,7 @@
     top: 10vh;
 }
 
-#contain{
+#cafe-contain{
     height: 75vh;
     width: 80vw;
     margin: auto;
@@ -21,9 +21,35 @@
 
 #seperator{
     background-color: var(--green);
-    border-bottom: solid 2px var(--black);
     border-top: solid 2px var(--black);
     overflow-x: hidden;
+}
+
+.sub-header{
+    border-top: solid 2px var(--black);
+    border-bottom: solid 2px var(--black);
+    padding: 15px auto;
+}
+
+#coffee-contain{
+    height: 70vh;
+    margin: auto;
+    margin-top: 100px;
+}
+#home-about img{
+    width: auto;
+    height: 100%;
+    object-fit: fill;
+    border-radius: var(--top-curve);
+}
+
+#coldbrew img{
+    height: 50vh;
+    border-radius: 100px 100px 0px 0px;
+}
+
+#dark {
+    margin-top: 20px;
 }
 
 @media(max-width: 768px) {
