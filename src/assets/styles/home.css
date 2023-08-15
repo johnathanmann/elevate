@@ -48,8 +48,26 @@
     border-radius: 100px 100px 0px 0px;
 }
 
-#dark {
-    margin-top: 20px;
+#home-menu .col-12{
+    display: flex;
+}
+
+#home-menu .coffee-card{
+    border-radius : var(--top-curve);
+    border: solid 2px var(--black);
+    width: fit-content;
+}
+
+#home-menu img{
+    height: 30vh;
+    width: auto;
+}
+
+#menu-btn{
+    width: fit-content;
+    all: unset;
+    border-radius: 15px;
+    border: solid 2px var(--black);
 }
 
 @media(max-width: 768px) {
