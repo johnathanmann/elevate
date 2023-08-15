@@ -48,8 +48,8 @@
     border-radius: 100px 100px 0px 0px;
 }
 
-#home-menu .col-12{
-    display: flex;
+#home-menu .col-md-3{
+    display: inline-flex;
 }
 
 #home-menu .coffee-card{

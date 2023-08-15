@@ -57,21 +57,25 @@ export default function Homepage(){
                 <div className="row text-center">
                     <h1 className="sub-header header bely black py-2">Current Offerings</h1>
                 </div>
-                <div className="row">
-                    <div className="col-12 d-flex justify-content-center mt-5">
-                        <div className="coffee-card text-center mx-4">
-                            <img src={lightRoast} alt="Light green coffee bag labled '100% Arabica Sumatra Light Roast'" className="m-3"/>
-                            <p className="kepler p-text black">Sumatra</p>
+                <div className="row mt-3 justify-content-center">
+                        <div className="col-md-2">
+                            <div className="coffee-card text-center mx-4 my-2 mx-auto">
+                                <img src={lightRoast} alt="Light green coffee bag labled '100% Arabica Sumatra Light Roast'" className="m-3"/>
+                                <p className="kepler p-text black">Sumatra</p>
+                            </div>
                         </div>
-                        <div className="coffee-card text-center mx-4">
-                            <img src={mediumRoast} alt="Light green coffee bag labled '100% Arabica Sumatra Light Roast'" className="m-3"/>
-                            <p className="kepler p-text black">House Blend</p>
+                        <div className="col-md-2">
+                            <div className="coffee-card text-center mx-4 my-2 mx-auto">
+                                <img src={mediumRoast} alt="Light green coffee bag labled '100% Arabica Sumatra Light Roast'" className="m-3"/>
+                                <p className="kepler p-text black">House Blend</p>
+                            </div>
                         </div>
-                        <div className="coffee-card text-center mx-4">
-                            <img src={darkRoast} alt="Brown coffee bag labled '100% Arabica Colombian Dark Roast'" className="m-3"/>
-                            <p className="kepler p-text black">Colombian</p>
+                        <div className="col-md-2">
+                            <div className="coffee-card text-center mx-4 my-2 mx-auto">
+                                <img src={darkRoast} alt="Brown coffee bag labled '100% Arabica Colombian Dark Roast'" className="m-3"/>
+                                <p className="kepler p-text black">Colombian</p>
+                            </div>
                         </div>
-                    </div>
                 </div>
                 <div className="row d-flex justify-content-center my-5">
                     <button id="menu-btn"><span className="kepler black p-text p-3">Full Menu</span></button>
