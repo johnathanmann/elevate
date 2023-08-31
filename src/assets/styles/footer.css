@@ -1,0 +1,30 @@
+#footer{
+    background-color: var(--green);
+}
+
+#footer input{
+    all: unset;
+    background-color: var(--green);
+    border: none;
+    border-bottom: solid 2px var(--cream);
+    color: var(--cream);
+    font-family: "kepler-std", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 26px;
+}
+
+#footer input::placeholder{
+    color: var(--cream);
+}
+
+#footer button{
+    all: unset;
+    width: fit-content;
+    border-radius: 15px;
+    border: solid 2px var(--cream);
+    font-size: 26px;
+    font-family: "kepler-std", serif;
+    font-weight: 400;
+    font-style: normal;
+}
