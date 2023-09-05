@@ -10,6 +10,19 @@ body{
     overflow-x: hidden;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+    padding: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: var(--green); 
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--black); 
+  }
+
 .bely-display{
     font-family: "bely-display", serif;
     font-weight: 400;

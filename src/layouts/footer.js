@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitterSquare, faInstagram, faTiktok } from "@fortawesome/free-brands-svg-icons";
 export default function Footer(){
     return(
-        <section className="container-fluid p-5 cream" id="footer">
+        <section data-aos="fade-up" className="container-fluid p-5 cream" id="footer">
             <div className="row">
             <section className="col-md-6 order-md-1 col-sm-12 order-sm-2">
                 <p className="p-text kepler">Stay up to date</p>

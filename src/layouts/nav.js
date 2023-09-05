@@ -18,8 +18,8 @@ export default function Nav(){
     }
 
     return(
-        <div id="nav">
-            <nav id="nav" className="container-fluid">
+        <div id="nav" >
+            <nav data-aos="fade-up" id="nav" className="container-fluid">
                 <h1 className="bely-display">Elevate</h1>
                 <img id="hamburger"onClick={() => openMenu()} src={hamburger}alt="Hamburger icon, three small horizontal bars indicating a menu"/>
             </nav>

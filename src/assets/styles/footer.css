@@ -1,5 +1,6 @@
 #footer{
     background-color: var(--green);
+    border-top: solid 2px var(--black);
 }
 
 #footer input{

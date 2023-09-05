@@ -8,7 +8,7 @@ import darkRoast from "../assets/images/dark-roast.png";
 import "../assets/styles/home.css";
 export default function Homepage(){
     return(
-        <div id="homepage">
+        <div id="homepage" data-aos="fade-up">
             <section className="container-fluid">
             <header className="row text-center">
                 <h1 className="header bely-display black">Elevate</h1>
@@ -17,15 +17,15 @@ export default function Homepage(){
                 </figure>
             </header>
             </section>
-            <section className="container-fluid text-center" id="seperator">
+            <section data-aos="fade-up" className="container-fluid text-center" id="seperator">
             <h1 className="kepler-italic black my-2">Where coffee meets elegance</h1>
             </section>
             <section div className="container-fluid">
-                <div className="row text-center">
+                <div data-aos="fade-up" className="row text-center">
                     <h1 className="sub-header header bely black py-2">Who are we?</h1>
                 </div>
                 <section className="container">
-                <div className="row mb-5" id="home-about">
+                <div data-aos="fade-up" className="row mb-5" id="home-about">
                     <div className="col-md-7 my-auto">
                         <p className="kepler black p-text p-3">Est 2023<br/><br />Elevate Café is your destination for a coffee experience beyond compare. With a focus on excellence and a touch of sophistication, we bring you a selection of premium coffees sourced from around the world. Our expert baristas craft each cup with precision, ensuring a symphony of flavors that delight your palate.</p>
                     </div>
@@ -38,10 +38,10 @@ export default function Homepage(){
                 </section>
             </section>
             <section className="container-fluid" id="coldbrew">
-                <div className="row text-center">
+                <div data-aos="fade-up" className="row text-center">
                     <h1 className="sub-header header bely black py-2">Why you're here</h1>
                 </div>
-                <div className="row my-5">
+                <div data-aos="fade-up" className="row my-5">
                     <div className="col-md-5 text-center mt-2">
                         <figure>
                             <img src={darkColdbrew} alt="Glass of black cold brew" className="mx-2 mt-5"/>
@@ -54,7 +54,7 @@ export default function Homepage(){
                 </div>
             </section>
             <section div className="container-fluid" id="home-menu">
-                <div className="row text-center">
+                <div data-aos="fade-up" className="row text-center">
                     <h1 className="sub-header header bely black py-2">Current Offerings</h1>
                 </div>
                 <div className="row mt-3 justify-content-center">
@@ -78,7 +78,7 @@ export default function Homepage(){
                         </div>
                 </div>
                 <div className="row d-flex justify-content-center my-5">
-                    <button id="menu-btn"><span className="kepler black p-text p-3">Full Menu</span></button>
+                    <button data-aos="fade-up" id="menu-btn"><span className="kepler black p-text p-3">Full Menu</span></button>
                 </div>
             </section>
         </div>
