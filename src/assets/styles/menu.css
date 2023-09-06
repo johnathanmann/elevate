@@ -1,3 +1,18 @@
-#menu{
-    height: 94vh;
+#nav{
+    margin-bottom: 0px;
+}
+
+#menu .col-md-6{
+    padding: 0px;
+    margin: 0px;
+}
+
+#menu ul{
+    padding: 0;
+}
+
+#menu li{
+    text-decoration: none;
+    border-bottom: solid 2px var(--black);
+    padding: 10px 30px;
 }
