@@ -21,7 +21,8 @@ export default function Nav(){
     const location = useLocation();
 
   useEffect(() => {
-    closeMenu();
+    document.getElementById("nav-menu").classList.remove("slide-over")
+    document.getElementById("hamburger").classList.remove("remove-hamburger")
   }, [location]);
 
     return(
