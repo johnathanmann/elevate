@@ -11,6 +11,7 @@ nav{
     display: flex;
     justify-content: space-between;
     border-bottom: solid 2px var(--black);
+    height: 6vh;
 }
 
 nav h1{
