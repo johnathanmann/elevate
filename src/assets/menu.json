@@ -1,0 +1,54 @@
+[
+   { 
+    "name":"Coffee",
+    "tagline":"Coffee can be modiefied with milks, suger, or syrups on request.",
+    "items":[
+        "Drip Coffee",
+        "Pour Over",
+        "Coldbrew",
+        "Nitro Coldbrew",
+        "Iced Coffee"
+    ]
+},
+{ 
+    "name":"Espresso",
+    "tagline":"Espresso drinks can be modiefied with milks, suger, or syrups on request.",
+    "items":[
+        "Espresso",
+        "Latte",
+        "Iced Latte",
+        "Flat White",
+        "Cappucino",
+        "Macchiato",
+        "Cortado", 
+        "Con Panna"
+    ]
+},
+{ 
+    "name":"Teas",
+    "tagline": "Teas can be made hot, iced, or as lattes on request.",   
+    "items":[
+        "English Breakfast Tea",
+        "Earl Gray",
+        "Green Tea",
+        "Chai",
+        "Jasmine Tea",
+        "Oolong Tea"
+    ]
+},
+{ 
+    "name":"Eats",
+    "items":[
+        "Croissants",
+        "Cheese Danish",
+        "Fruit Tart",
+        "Muffins",
+        "Scones",
+        "Coffee Cake",
+        "Cinnamon Rolls",
+        "Turn Overs",
+        "Pumpkin Loaf",
+        "Banana Bread"
+    ]
+}
+]
