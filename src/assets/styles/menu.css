@@ -33,8 +33,20 @@
 
 #second-menu{
     right: -110vw;
-    position: fixed;
+    position: absolute;
     background-color: var(--cream);
+}
+
+#menu-items h1{
+    margin: 0px 12px;
+    border-bottom: solid 2px var(--black);
+}
+
+#menu-items li{
+    list-style: none;
+    margin: 0px 12px;
+    display: flex;
+    justify-content: space-between;
 }
 
 

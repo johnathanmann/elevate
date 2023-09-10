@@ -9,22 +9,24 @@ import croissant from "../assets/images/croissant.jpg";
 
 export default function Menu(){
     let [activeImg, setActiveImg] =useState(sign);
-    let [activeMenu, setactiveMenu] =useState("Coffee");
-
+    let [activeMenu, setactiveMenu] = useState(menus.filter(function(i) {
+        return i.name === "Coffee";
+      }));
     function changeImg(img){
         setActiveImg(img)
     }
 
-    const openMenu = (menu) => {
-        console.log("click");
+    const setMenu = (menu) => {
         let currentMenu = menus.filter(function(i) {
             return i.name === menu;
           });
-          console.log(currentMenu[0].items)
         setactiveMenu(currentMenu)
-        document.getElementById("second-menu").classList.add("open-menu")
     }
 
+    const openMenu = (menu) => {
+        setMenu(menu)
+        document.getElementById("second-menu").classList.add("open-menu")
+    }
 
     return(
         <main id="menu" className="container-fluid">
@@ -46,9 +48,11 @@ export default function Menu(){
                 <figure className="col-lg-6 col-md-6 col-sm-12" id="img-container">
                     <img id="menu-img" src={activeImg} />
                 </figure>
-                <article className="col-lg-6 col-md-6 col-sm-12" >
+                <article className="col-lg-6 col-md-6 col-sm-12" id="menu-items">
+                <h1 className="bely-display display-1 black">{activeMenu[0].name}</h1>
                 {activeMenu[0].items.map((item, index)=>{
-                return <li>{item}</li>
+                    console.log(item.name)
+                return <li className="p-text black kepler">{item.name}<span>$ {item.price}</span></li>
                 })}
                 </article>
             </section>

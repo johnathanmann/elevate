@@ -3,52 +3,132 @@
     "name":"Coffee",
     "tagline":"Coffee can be modiefied with milks, suger, or syrups on request.",
     "items":[
-        "Drip Coffee",
-        "Pour Over",
-        "Coldbrew",
-        "Nitro Coldbrew",
-        "Iced Coffee"
+        {
+            "name":"Drip Coffee",
+            "price": "2"
+        },
+        {
+            "name":"Pour Over",
+            "price": "4"
+        },
+        {
+            "name":"Iced Coffee",
+            "price": "4"
+        },
+        {
+            "name":"Cold Brew",
+            "price": "5"
+        },
+        {
+            "name":"Nitro Cold Brew",
+            "price": "6"
+        }
     ]
 },
 { 
     "name":"Espresso",
     "tagline":"Espresso drinks can be modiefied with milks, suger, or syrups on request.",
     "items":[
-        "Espresso",
-        "Latte",
-        "Iced Latte",
-        "Flat White",
-        "Cappucino",
-        "Macchiato",
-        "Cortado", 
-        "Con Panna"
+        {
+            "name":"Espresso",
+            "price": "1"
+        },
+        {
+            "name":"Latte",
+            "price": "5"
+        },
+
+        {
+            "name":"Flat White",
+            "price": "6"
+        },
+        {
+            "name":"5",
+            "price": "4"
+        },
+        {
+            "name":"3",
+            "price": "4"
+        },
+        {
+            "name":"Cortado",
+            "price": "2"
+        },
+        {
+            "name":"Con Panna",
+            "price": "2"
+        }
     ]
 },
 { 
     "name":"Teas",
     "tagline": "Teas can be made hot, iced, or as lattes on request.",   
     "items":[
-        "English Breakfast Tea",
-        "Earl Gray",
-        "Green Tea",
-        "Chai",
-        "Jasmine Tea",
-        "Oolong Tea"
+        {
+        "name":"English Breakfast Tea",
+        "price": "4"
+    },
+    {
+        "name":"Earl Gray",
+        "price": "4"
+    },
+    {
+        "name":"Green Tea",
+        "price": "4"
+    },
+    {
+        "name":"Chai",
+        "price": "4"
+    },
+    {
+        "name":"Jasmine Tea",
+        "price": "4"
+    },
+    {
+        "name":"Oolong Tea",
+        "price": "4"
+    }
     ]
 },
 { 
     "name":"Eats",
     "items":[
-        "Croissants",
-        "Cheese Danish",
-        "Fruit Tart",
-        "Muffins",
-        "Scones",
-        "Coffee Cake",
-        "Cinnamon Rolls",
-        "Turn Overs",
-        "Pumpkin Loaf",
-        "Banana Bread"
+        {
+            "name":"Croissant",
+            "price": "4"
+        },
+        {
+            "name":"Cheese Danish",
+            "price": "5"
+        },
+        {
+            "name":"Fruit Tart",
+            "price": "6"
+        },
+        {
+            "name":"Muffins",
+            "price": "5"
+        },
+        {
+            "name":"Scones",
+            "price": "3"
+        },
+        {
+            "name":"Coffee Cake",
+            "price": "5"
+        },
+        {
+            "name":"Cinnamon Rolls",
+            "price": "6"
+        },
+        {
+            "name":"Pumpkin Loaf",
+            "price": "4"
+        },
+        {
+            "name":"Banana Bread",
+            "price": "4"
+        }
     ]
 }
 ]
