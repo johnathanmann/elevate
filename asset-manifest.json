@@ -1,20 +1,25 @@
 {
   "files": {
-    "main.css": "/elevate/static/css/main.721fef70.css",
-    "main.js": "/elevate/static/js/main.9a9e1363.js",
+    "main.css": "/elevate/static/css/main.18a6ef0f.css",
+    "main.js": "/elevate/static/js/main.e6fdb67d.js",
     "static/media/cappuccino.jpg": "/elevate/static/media/cappuccino.67df3930f24cd83f90f8.jpg",
+    "static/media/elevate-sign.png": "/elevate/static/media/elevate-sign.4973144f29c348accd2f.png",
     "static/media/cafe.jpg": "/elevate/static/media/cafe.afae39a516291435c5f0.jpg",
+    "static/media/croissant.jpg": "/elevate/static/media/croissant.cc4416a1e89a0d6054f4.jpg",
     "static/media/medium-roast.png": "/elevate/static/media/medium-roast.ed866721b3a6c7703589.png",
     "static/media/dark-roast.png": "/elevate/static/media/dark-roast.b24c2d3deb34401c6d0e.png",
     "static/media/light-roast.png": "/elevate/static/media/light-roast.d6e9aadd57627a3d6cbb.png",
+    "static/media/coffee.jpg": "/elevate/static/media/coffee.7db8bb3155263ed92d53.jpg",
+    "static/media/espresso.jpg": "/elevate/static/media/espresso.1e2d998b1b9a562cf31b.jpg",
+    "static/media/tea.jpg": "/elevate/static/media/tea.a9f3de990138243a1fae.jpg",
     "static/media/dark-coldbrew.png": "/elevate/static/media/dark-coldbrew.b17540c1c9f2efd92e78.png",
     "static/media/light-coldbrew.png": "/elevate/static/media/light-coldbrew.d18a8a90589335df1003.png",
     "index.html": "/elevate/index.html",
-    "main.721fef70.css.map": "/elevate/static/css/main.721fef70.css.map",
-    "main.9a9e1363.js.map": "/elevate/static/js/main.9a9e1363.js.map"
+    "main.18a6ef0f.css.map": "/elevate/static/css/main.18a6ef0f.css.map",
+    "main.e6fdb67d.js.map": "/elevate/static/js/main.e6fdb67d.js.map"
   },
   "entrypoints": [
-    "static/css/main.721fef70.css",
-    "static/js/main.9a9e1363.js"
+    "static/css/main.18a6ef0f.css",
+    "static/js/main.e6fdb67d.js"
   ]
 }
