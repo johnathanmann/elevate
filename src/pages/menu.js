@@ -16,7 +16,6 @@ export default function Menu(){
     const openMenu = (e) => {
         console.log("click")
         document.getElementById("second-menu").classList.add("open-menu")
-        document.getElementById("first-menu").classList.add("d-none")
     }
 
 
