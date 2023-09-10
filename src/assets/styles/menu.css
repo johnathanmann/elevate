@@ -1,5 +1,7 @@
 #nav{
     margin-bottom: 0px;
+    height: 8vh;
+    border-bottom: solid 2px var(--black);
 }
 
 #menu .row{
@@ -23,7 +25,7 @@
     text-decoration: none;
     border-bottom: solid 2px var(--black);
     padding: 10px 30px;
-    margin-right: 12px;
+    margin:0px 12px;
 }
 
 #img-container img{
@@ -38,13 +40,11 @@
 }
 
 #menu-items h1{
-    margin: 0px 12px;
     border-bottom: solid 2px var(--black);
 }
 
 #menu-items li{
     list-style: none;
-    margin: 0px 12px;
     display: flex;
     justify-content: space-between;
 }
@@ -59,4 +59,32 @@
     animation-name: slide;
     animation-duration: 2s;
     animation-fill-mode: forwards;
+}
+
+@media (max-width: 576px){
+    #menu{
+        height: 110vh;
+    }
+
+    #menu .col-sm-12{
+        height: 55vh;
+    }
+
+    #img-container{
+        height: 50vh;
+        width: 100vw;
+        overflow-y: hidden;
+    }
+
+    #second-menu{
+        top: 63vh;
+        right: 0;
+        position: absolute;
+        background-color: var(--cream);
+    }
+    
+@keyframes slide {
+    0% { top: 63vh;}  
+    100%{ top: 8vh;}
+}
 }

@@ -10,6 +10,14 @@ body{
     overflow-x: hidden;
 }
 
+#root{
+    overflow-x: hidden;
+}
+
+.container-fluid{
+    padding: 0px !important;
+}
+
 ::-webkit-scrollbar {
     width: 10px;
     padding: 5px;
