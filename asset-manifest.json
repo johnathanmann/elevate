@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/elevate/static/css/main.18a6ef0f.css",
+    "main.css": "/elevate/static/css/main.e9eab195.css",
     "main.js": "/elevate/static/js/main.e6fdb67d.js",
     "static/media/cappuccino.jpg": "/elevate/static/media/cappuccino.67df3930f24cd83f90f8.jpg",
     "static/media/elevate-sign.png": "/elevate/static/media/elevate-sign.4973144f29c348accd2f.png",
@@ -15,11 +15,11 @@
     "static/media/dark-coldbrew.png": "/elevate/static/media/dark-coldbrew.b17540c1c9f2efd92e78.png",
     "static/media/light-coldbrew.png": "/elevate/static/media/light-coldbrew.d18a8a90589335df1003.png",
     "index.html": "/elevate/index.html",
-    "main.18a6ef0f.css.map": "/elevate/static/css/main.18a6ef0f.css.map",
+    "main.e9eab195.css.map": "/elevate/static/css/main.e9eab195.css.map",
     "main.e6fdb67d.js.map": "/elevate/static/js/main.e6fdb67d.js.map"
   },
   "entrypoints": [
-    "static/css/main.18a6ef0f.css",
+    "static/css/main.e9eab195.css",
     "static/js/main.e6fdb67d.js"
   ]
 }
