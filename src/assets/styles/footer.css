@@ -1,6 +1,7 @@
 #footer{
     background-color: var(--green);
     border-top: solid 2px var(--black);
+    z-index: 100;
 }
 
 #footer input{

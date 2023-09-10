@@ -63,6 +63,7 @@ body{
     font-size: 26px;
 }
 
+
 @media(max-width: 992px) {
     .header{
         font-size: calc(1.625rem + 7.5vw);

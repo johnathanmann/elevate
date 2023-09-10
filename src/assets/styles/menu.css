@@ -2,7 +2,15 @@
     margin-bottom: 0px;
 }
 
-#menu .col-md-6{
+#menu .row{
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#menu .col-lg-6{
     padding: 0px;
     margin: 0px;
 }
@@ -15,4 +23,29 @@
     text-decoration: none;
     border-bottom: solid 2px var(--black);
     padding: 10px 30px;
+    margin-right: 12px;
+}
+
+#img-container img{
+    width: 100%;
+    object-fit: fill;
+}
+
+#second-menu{
+    right: -110vw;
+}
+
+.open-menu{
+    animation-name: slide;
+    animation-duration: 4s;
+    animation-fill-mode:backwards;
+}
+
+.open-menu img{
+    height: auto;
+}
+
+@keyframes slide {
+    0% { right: -110vw;}  
+    100%{ right: 0vw;}
 }

@@ -13,25 +13,38 @@ export default function Menu(){
         setActiveImg(img)
     }
 
-    function resetImg(){
-        setActiveImg(sign)
+    const openMenu = (e) => {
+        console.log("click")
+        document.getElementById("second-menu").classList.add("open-menu")
+        document.getElementById("first-menu").classList.add("d-none")
     }
+
 
     return(
         <main id="menu" className="container-fluid">
-            <section className="row">
-                <article className="col-md-6 col-sm-12">
+            <div className="d-inline-flex">
+                <section className="row" id="first-menu">
+                <article className="col-lg-6 col-md-6 col-sm-12" >
                     <ul>
-                        <li onMouseOver={() => changeImg(coffee)} onMouseLeave={() => resetImg()} className="bely-display display-1 black">Coffee</li>
-                        <li onMouseOver={() => changeImg(espresso)} onMouseLeave={() => resetImg()} className="bely-display display-1 black">Espresso</li>
-                        <li onMouseOver={() => changeImg(teas)} onMouseLeave={() => resetImg()} className="bely-display display-1 black">Teas</li>
-                        <li onMouseOver={() => changeImg(croissant)} onMouseLeave={() => resetImg()} className="bely-display display-1 black">Eats</li>
+                        <li onMouseOver={() => changeImg(coffee)}  onClick={() => openMenu()} className="bely-display display-1 black">Coffee</li>
+                        <li onMouseOver={() => changeImg(espresso)} className="bely-display display-1 black">Espresso</li>
+                        <li onMouseOver={() => changeImg(teas)} className="bely-display display-1 black">Teas</li>
+                        <li onMouseOver={() => changeImg(croissant)} className="bely-display display-1 black">Eats</li>
                     </ul>
                 </article>
-                <figure className="col-md-6 col-sm-12">
-                    <img className="img-fluid" id="menu-img" src={activeImg} />
+                <figure className="col-lg-6 col-md-6 col-sm-12" id="img-container">
+                    <img id="menu-img" src={activeImg} />
                 </figure>
             </section>
+            <section className="row closed-menu" id="second-menu">  
+                <figure className="col-lg-6 col-md-6 col-sm-12" id="img-container">
+                    <img id="menu-img" src={activeImg} />
+                </figure>
+                <article className="col-lg-6 col-md-6 col-sm-12" >
+                    <h1>hi</h1>
+                </article>
+            </section>
+            </div>
         </main>
     )
 }
