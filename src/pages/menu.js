@@ -41,28 +41,30 @@ export default function Menu(){
             <div className="d-inline-flex">
                 <section className="row" id="first-menu">
                 <article className="col-lg-6 col-md-6 col-sm-12 height-55" >
-                    <ul>
-                        <li onMouseOver={() => changeImg(coffee)} onClick={() => openMenu("Coffee")} className="bely-display display-3 black">Coffee</li>
-                        <li onMouseOver={() => changeImg(espresso)} onClick={() => openMenu("Espresso")} className="bely-display display-3 black">Espresso</li>
-                        <li onMouseOver={() => changeImg(teas)} onClick={() => openMenu("Teas")} className="bely-display display-3 black">Teas</li>
-                        <li onMouseOver={() => changeImg(croissant)} onClick={() => openMenu("Eats")} className="bely-display display-3 black">Eats</li>
+                    <ul className="bely-display display-3 black">
+                        <li  data-aos="fade-up" onMouseOver={() => changeImg(coffee)} onClick={() => openMenu("Coffee")}>Coffee</li>
+                        <li  data-aos="fade-up" onMouseOver={() => changeImg(espresso)} onClick={() => openMenu("Espresso")}>Espresso</li>
+                        <li  data-aos="fade-up" onMouseOver={() => changeImg(teas)} onClick={() => openMenu("Teas")}>Teas</li>
+                        <li  data-aos="fade-up" onMouseOver={() => changeImg(croissant)} onClick={() => openMenu("Eats")}>Eats</li>
                     </ul>
                 </article>
                 <figure className="col-lg-6 col-md-6 col-sm-12 height-55" id="img-container">
-                    <img id="menu-img" src={activeImg} />
+                    <img  data-aos="fade-up" id="menu-img" src={activeImg} />
                 </figure>
             </section>
             <section className="row closed-menu" id="second-menu">  
                 <figure className="col-lg-6 col-md-6 col-sm-12 height-55" id="img-container">
-                    <img id="menu-img" src={activeImg} />
+                    <img  data-aos="fade-up" id="menu-img" src={activeImg} />
                 </figure>
                 <article className="col-lg-6 col-md-6 col-sm-12 d-none" id="menu-items">
-                <h1 className="bely-display display-3 black">{activeMenu[0].name}</h1>
-                <p className="kepler-italic black">{activeMenu[0].tagline}</p>
+                <h1  data-aos="fade-up" className="bely-display display-3 black">{activeMenu[0].name}</h1>
+                <p  data-aos="fade-up" className="kepler-italic black">{activeMenu[0].tagline}</p>
+                <ul className="p-text black kepler">
                 {activeMenu[0].items.map((item, index)=>{
                     console.log(item.name)
-                return <li className="p-text black kepler">{item.name}<span>$ {item.price}</span></li>
+                return <li>{item.name}<span>$ {item.price}</span></li>
                 })}
+                </ul>
                 </article>
             </section>
             </div>

@@ -44,12 +44,12 @@
 }
 
 #menu-items h1{
-    padding: 10px 30px;
+    padding: 18px 30px 10px 30px;
 }
 
 #menu-items p{
     border-bottom: solid 2px var(--black);
-    padding: 0px 30px 10px ;
+    padding: 0px 18px 10px ;
     margin:0px 12px;
 }
 
