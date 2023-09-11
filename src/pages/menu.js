@@ -30,9 +30,10 @@ export default function Menu(){
         document.getElementById("menu").classList.add("menu-open")
         document.getElementById("menu-items").classList.remove("d-none")
         document.getElementById("menu-items").classList.add("d-block")
-        var clientHeight = document.getElementById('menu-items').clientHeight / 2;
+        if (window.innerWidth <= 576) {
+            var clientHeight = document.getElementById('menu-items').clientHeight / 2;
         document.getElementById("footer").style.marginTop=clientHeight+"px";
-        console.log(clientHeight)
+          }
     }
 
     return(

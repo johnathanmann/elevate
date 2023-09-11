@@ -1,5 +1,5 @@
 #nav{
-    margin-bottom: 0px;
+    padding: 10px 20px 10px 20px;
     height: 8vh;
     border-bottom: solid 2px var(--black);
 }
