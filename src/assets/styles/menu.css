@@ -39,8 +39,18 @@
     background-color: var(--cream);
 }
 
+#menu-items{
+    padding: 10px 0px;
+}
+
 #menu-items h1{
+    padding: 10px 30px;
+}
+
+#menu-items p{
     border-bottom: solid 2px var(--black);
+    padding: 0px 30px 10px ;
+    margin:0px 12px;
 }
 
 #menu-items li{
@@ -62,18 +72,18 @@
 }
 
 @media (max-width: 576px){
-    #menu{
-        height: 110vh;
-    }
-
-    #menu .col-sm-12{
-        height: 55vh;
+    .menu-initial{
+        overflow-y: hidden;
     }
 
     #img-container{
-        height: 50vh;
+        height: 55vh;
         width: 100vw;
         overflow-y: hidden;
+    }
+
+    #menu-img{
+        height: 100%;
     }
 
     #second-menu{
@@ -82,7 +92,16 @@
         position: absolute;
         background-color: var(--cream);
     }
-    
+
+    .height-55{
+        height: 55vh;
+    }
+
+    #menu-items{
+        height: auto;
+    }
+
+
 @keyframes slide {
     0% { top: 63vh;}  
     100%{ top: 8vh;}

@@ -37,18 +37,13 @@
             "name":"Latte",
             "price": "5"
         },
-
         {
             "name":"Flat White",
             "price": "6"
         },
         {
-            "name":"5",
-            "price": "4"
-        },
-        {
-            "name":"3",
-            "price": "4"
+            "name":"Mocha",
+            "price": "6"
         },
         {
             "name":"Cortado",
