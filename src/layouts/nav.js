@@ -38,7 +38,6 @@ export default function Nav(){
                 </header>
                 <ul>
                     <NavLink style={{textDecoration: 'none'}} to="/"><li className="display-5 kepler cream">Home</li></NavLink>
-                    <NavLink style={{textDecoration: 'none'}} to="/about"><li className="display-5 kepler cream">About</li></NavLink>
                     <NavLink style={{textDecoration: 'none'}} to="/menu"><li className="display-5 kepler cream">Menu</li></NavLink>
                 </ul>
             </div>
