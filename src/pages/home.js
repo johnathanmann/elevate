@@ -45,7 +45,7 @@ export default function Homepage(){
                     <div className="col-md-5 text-center mt-2">
                         <figure>
                             <img src={darkColdbrew} alt="Glass of black cold brew" className="mx-2 mt-5"/>
-                            <img src={lightColdbrew} alt="Glass of cold brew with cream" className=" mx-5"/>
+                            <img src={lightColdbrew} alt="Glass of cold brew with cream" className=" mx-3"/>
                         </figure>
                     </div>
                     <div className="col-md-5 my-auto">
