@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import cafe from "../assets/images/cafe.webp";
 import cappuccino from "../assets/images/cappuccino.webp";
 import darkColdbrew from "../assets/images/dark-coldbrew.webp";
@@ -78,7 +79,7 @@ export default function Homepage(){
                         </div>
                 </div>
                 <div className="row d-flex justify-content-center my-5">
-                    <button data-aos="fade-up" id="menu-btn"><span className="kepler black p-text p-3">Full Menu</span></button>
+                    <button data-aos="fade-up" id="menu-btn"><NavLink style={{textDecoration: 'none'}} to="/menu" className="kepler black big-text p-3">Full Menu</NavLink></button>
                 </div>
             </section>
         </div>

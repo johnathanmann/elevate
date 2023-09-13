@@ -53,7 +53,7 @@ export default function Menu(){
         <main id="menu" className="container-fluid menu-initial">
             <div className="d-inline-flex">
                 <section className="row" id="first-menu">
-                <article className="col-lg-6 col-md-6 col-sm-12 height-55" >
+                <article className="col-lg-6 col-md-6 col-sm-12 col-height" >
                     <ul className="bely-display display-3 black">
                         <li  data-aos="fade-up" onMouseOver={() => changeImg(coffee)} onClick={() => openMenu("Coffee")}>Coffee</li>
                         <li  data-aos="fade-up" onMouseOver={() => changeImg(espresso)} onClick={() => openMenu("Espresso")}>Espresso</li>
@@ -61,12 +61,12 @@ export default function Menu(){
                         <li  data-aos="fade-up" onMouseOver={() => changeImg(croissant)} onClick={() => openMenu("Eats")}>Eats</li>
                     </ul>
                 </article>
-                <figure className="col-lg-6 col-md-6 col-sm-12 height-55 menu-img img-container">
+                <figure className="col-lg-6 col-md-6 col-sm-12 col-height menu-img img-container">
                     <img  data-aos="fade-up" id="first-menu-img" src={activeImg} />
                 </figure>
             </section>
             <section className="row closed-menu" id="second-menu">  
-                <figure className="col-lg-6 col-md-6 col-sm-12 height-55 img-container">
+                <figure className="col-lg-6 col-md-6 col-sm-12 col-height img-container">
                     <img  data-aos="fade-up" src={activeImg} />
                 </figure>
                 <article className="col-lg-6 col-md-6 col-sm-12 d-none" id="menu-items"> 

@@ -95,7 +95,6 @@
     }
 
     .img-container{
-        height: 55vh;
         width: 100vw;
         overflow-y: hidden;
     }
@@ -103,18 +102,16 @@
     .menu-img img{
         height: 100%;
     }
+    .col-height{
+        height: 46vh;
+    }
 
     #second-menu{
-        top: 63vh;
+        top: 54vh;
         right: 0;
         position: absolute;
         background-color: var(--cream);
     }
-
-    .height-55{
-        height: 55vh;
-    }
-
     #menu-items{
         height: auto;
     }
