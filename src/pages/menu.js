@@ -70,7 +70,7 @@ export default function Menu(){
                     <img  data-aos="fade-up" src={activeImg} />
                 </figure>
                 <article className="col-lg-6 col-md-6 col-sm-12 d-none" id="menu-items"> 
-                <h1  data-aos="fade-up" className="bely-display display-3 black">{activeMenu[0].name}<img onClick={() => closeMenu()} src={x} alt="X icon"/></h1>
+                <h1 className="bely-display display-3 black">{activeMenu[0].name}<img onClick={() => closeMenu()} src={x} alt="X icon"/></h1>
                 <p  data-aos="fade-up" className="kepler-italic black">{activeMenu[0].tagline}</p>
                 <ul className="p-text black kepler">
                 {activeMenu[0].items.map((item, index)=>{
