@@ -1,10 +1,10 @@
-import cafe from "../assets/images/cafe.jpg";
-import cappuccino from "../assets/images/cappuccino.jpg";
-import darkColdbrew from "../assets/images/dark-coldbrew.png";
-import lightColdbrew from "../assets/images/light-coldbrew.png";
-import lightRoast from "../assets/images/light-roast.png";
-import mediumRoast from "../assets/images/medium-roast.png";
-import darkRoast from "../assets/images/dark-roast.png";
+import cafe from "../assets/images/cafe.webp";
+import cappuccino from "../assets/images/cappuccino.webp";
+import darkColdbrew from "../assets/images/dark-coldbrew.webp";
+import lightColdbrew from "../assets/images/light-coldbrew.webp";
+import lightRoast from "../assets/images/light-roast.webp";
+import mediumRoast from "../assets/images/medium-roast.webp";
+import darkRoast from "../assets/images/dark-roast.webp";
 import "../assets/styles/home.css";
 export default function Homepage(){
     return(

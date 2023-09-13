@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
 import "../assets/styles/menu.css";
 import menus from "../assets/menu.json";
-import sign from "../assets/images/elevate-sign.png";
-import coffee from "../assets/images/coffee.jpg";
-import teas from "../assets/images/tea.jpg";
-import espresso from "../assets/images/espresso.jpg";
-import croissant from "../assets/images/croissant.jpg";
+import sign from "../assets/images/elevate-sign.webp";
+import coffee from "../assets/images/coffee.webp";
+import teas from "../assets/images/tea.webp";
+import espresso from "../assets/images/espresso.webp";
+import croissant from "../assets/images/croissant.webp";
 import x from "../assets/images/elevate-x.png";
 
 export default function Menu(){
@@ -30,6 +30,7 @@ export default function Menu(){
         document.getElementById("second-menu").classList.remove("close-menu")
         document.getElementById("menu").classList.remove("menu-initial")
         document.getElementById("menu").classList.add("menu-open")
+        document.getElementById("first-menu-img").style.opacity="0";
         document.getElementById("menu-items").classList.remove("d-none")
         document.getElementById("menu-items").classList.add("d-block")
         if (window.innerWidth <= 576) {
@@ -41,6 +42,8 @@ export default function Menu(){
     const closeMenu = () => {
         document.getElementById("second-menu").classList.remove("open-menu")
         document.getElementById("second-menu").classList.add("close-menu")
+        
+        document.getElementById("first-menu-img").style.opacity="0";
         if (window.innerWidth <= 576) {
         document.getElementById("footer").style.marginTop="auto";
           }
@@ -58,13 +61,13 @@ export default function Menu(){
                         <li  data-aos="fade-up" onMouseOver={() => changeImg(croissant)} onClick={() => openMenu("Eats")}>Eats</li>
                     </ul>
                 </article>
-                <figure className="col-lg-6 col-md-6 col-sm-12 height-55" id="img-container">
-                    <img  data-aos="fade-up" id="menu-img" src={activeImg} />
+                <figure className="col-lg-6 col-md-6 col-sm-12 height-55 menu-img img-container">
+                    <img  data-aos="fade-up" id="first-menu-img" src={activeImg} />
                 </figure>
             </section>
             <section className="row closed-menu" id="second-menu">  
-                <figure className="col-lg-6 col-md-6 col-sm-12 height-55" id="img-container">
-                    <img  data-aos="fade-up" id="menu-img" src={activeImg} />
+                <figure className="col-lg-6 col-md-6 col-sm-12 height-55 img-container">
+                    <img  data-aos="fade-up" src={activeImg} />
                 </figure>
                 <article className="col-lg-6 col-md-6 col-sm-12 d-none" id="menu-items"> 
                 <h1  data-aos="fade-up" className="bely-display display-3 black">{activeMenu[0].name}<img onClick={() => closeMenu()} src={x} alt="X icon"/></h1>

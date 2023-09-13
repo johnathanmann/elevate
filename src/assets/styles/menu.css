@@ -28,7 +28,7 @@
     margin:0px 12px;
 }
 
-#img-container img{
+.img-container img{
     width: 100%;
     object-fit: fill;
 }
@@ -94,13 +94,13 @@
         overflow-y: hidden;
     }
 
-    #img-container{
+    .img-container{
         height: 55vh;
         width: 100vw;
         overflow-y: hidden;
     }
 
-    #menu-img{
+    .menu-img img{
         height: 100%;
     }
 
