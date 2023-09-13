@@ -6,6 +6,7 @@ import coffee from "../assets/images/coffee.jpg";
 import teas from "../assets/images/tea.jpg";
 import espresso from "../assets/images/espresso.jpg";
 import croissant from "../assets/images/croissant.jpg";
+import x from "../assets/images/elevate-x.png";
 
 export default function Menu(){
     let [activeImg, setActiveImg] =useState(sign);
@@ -26,6 +27,7 @@ export default function Menu(){
     const openMenu = (menu) => {
         setMenu(menu)
         document.getElementById("second-menu").classList.add("open-menu")
+        document.getElementById("second-menu").classList.remove("close-menu")
         document.getElementById("menu").classList.remove("menu-initial")
         document.getElementById("menu").classList.add("menu-open")
         document.getElementById("menu-items").classList.remove("d-none")
@@ -33,6 +35,14 @@ export default function Menu(){
         if (window.innerWidth <= 576) {
             var clientHeight = document.getElementById('menu-items').clientHeight / 2;
         document.getElementById("footer").style.marginTop=clientHeight+"px";
+          }
+    }
+
+    const closeMenu = () => {
+        document.getElementById("second-menu").classList.remove("open-menu")
+        document.getElementById("second-menu").classList.add("close-menu")
+        if (window.innerWidth <= 576) {
+        document.getElementById("footer").style.marginTop="auto";
           }
     }
 
@@ -56,8 +66,8 @@ export default function Menu(){
                 <figure className="col-lg-6 col-md-6 col-sm-12 height-55" id="img-container">
                     <img  data-aos="fade-up" id="menu-img" src={activeImg} />
                 </figure>
-                <article className="col-lg-6 col-md-6 col-sm-12 d-none" id="menu-items">
-                <h1  data-aos="fade-up" className="bely-display display-3 black">{activeMenu[0].name}</h1>
+                <article className="col-lg-6 col-md-6 col-sm-12 d-none" id="menu-items"> 
+                <h1  data-aos="fade-up" className="bely-display display-3 black">{activeMenu[0].name}<img onClick={() => closeMenu()} src={x} alt="X icon"/></h1>
                 <p  data-aos="fade-up" className="kepler-italic black">{activeMenu[0].tagline}</p>
                 <ul className="p-text black kepler">
                 {activeMenu[0].items.map((item, index)=>{
