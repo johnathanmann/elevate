@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/elevate/static/css/main.239a7a68.css",
-    "main.js": "/elevate/static/js/main.a9f5ea9e.js",
+    "main.css": "/elevate/static/css/main.a90c5b16.css",
+    "main.js": "/elevate/static/js/main.5a4e8bfa.js",
     "static/media/cappuccino.webp": "/elevate/static/media/cappuccino.80e9be6ff9c0017cdf0b.webp",
     "static/media/cafe.webp": "/elevate/static/media/cafe.e9b1f186c0c10b65ab46.webp",
     "static/media/tea.webp": "/elevate/static/media/tea.aedc6853f4a2608a20c9.webp",
@@ -15,11 +15,11 @@
     "static/media/dark-coldbrew.webp": "/elevate/static/media/dark-coldbrew.d1f302d68d14be9418d7.webp",
     "static/media/light-coldbrew.webp": "/elevate/static/media/light-coldbrew.6bcdb5da7f65044d9998.webp",
     "index.html": "/elevate/index.html",
-    "main.239a7a68.css.map": "/elevate/static/css/main.239a7a68.css.map",
-    "main.a9f5ea9e.js.map": "/elevate/static/js/main.a9f5ea9e.js.map"
+    "main.a90c5b16.css.map": "/elevate/static/css/main.a90c5b16.css.map",
+    "main.5a4e8bfa.js.map": "/elevate/static/js/main.5a4e8bfa.js.map"
   },
   "entrypoints": [
-    "static/css/main.239a7a68.css",
-    "static/js/main.a9f5ea9e.js"
+    "static/css/main.a90c5b16.css",
+    "static/js/main.5a4e8bfa.js"
   ]
 }
