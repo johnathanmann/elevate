@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/elevate/static/css/main.239a7a68.css",
-    "main.js": "/elevate/static/js/main.5999f7b3.js",
-    "static/media/cappuccino.jpg": "/elevate/static/media/cappuccino.67df3930f24cd83f90f8.jpg",
-    "static/media/elevate-sign.png": "/elevate/static/media/elevate-sign.4973144f29c348accd2f.png",
-    "static/media/cafe.jpg": "/elevate/static/media/cafe.afae39a516291435c5f0.jpg",
-    "static/media/croissant.jpg": "/elevate/static/media/croissant.cc4416a1e89a0d6054f4.jpg",
-    "static/media/medium-roast.png": "/elevate/static/media/medium-roast.ed866721b3a6c7703589.png",
-    "static/media/dark-roast.png": "/elevate/static/media/dark-roast.b24c2d3deb34401c6d0e.png",
-    "static/media/light-roast.png": "/elevate/static/media/light-roast.d6e9aadd57627a3d6cbb.png",
-    "static/media/coffee.jpg": "/elevate/static/media/coffee.7db8bb3155263ed92d53.jpg",
-    "static/media/espresso.jpg": "/elevate/static/media/espresso.1e2d998b1b9a562cf31b.jpg",
-    "static/media/tea.jpg": "/elevate/static/media/tea.a9f3de990138243a1fae.jpg",
-    "static/media/dark-coldbrew.png": "/elevate/static/media/dark-coldbrew.b17540c1c9f2efd92e78.png",
-    "static/media/light-coldbrew.png": "/elevate/static/media/light-coldbrew.d18a8a90589335df1003.png",
+    "main.js": "/elevate/static/js/main.a9f5ea9e.js",
+    "static/media/cappuccino.webp": "/elevate/static/media/cappuccino.80e9be6ff9c0017cdf0b.webp",
+    "static/media/cafe.webp": "/elevate/static/media/cafe.e9b1f186c0c10b65ab46.webp",
+    "static/media/tea.webp": "/elevate/static/media/tea.aedc6853f4a2608a20c9.webp",
+    "static/media/elevate-sign.webp": "/elevate/static/media/elevate-sign.a716a7faa76269587b6d.webp",
+    "static/media/croissant.webp": "/elevate/static/media/croissant.75ba92ccc73519f667b8.webp",
+    "static/media/coffee.webp": "/elevate/static/media/coffee.9d038b065a80e8b78229.webp",
+    "static/media/espresso.webp": "/elevate/static/media/espresso.07ba327b67afff2549a5.webp",
+    "static/media/dark-roast.webp": "/elevate/static/media/dark-roast.26156b327583820be840.webp",
+    "static/media/medium-roast.webp": "/elevate/static/media/medium-roast.f748e3d2ef1858d74169.webp",
+    "static/media/light-roast.webp": "/elevate/static/media/light-roast.8c433d5776e1cd019d6f.webp",
+    "static/media/dark-coldbrew.webp": "/elevate/static/media/dark-coldbrew.d1f302d68d14be9418d7.webp",
+    "static/media/light-coldbrew.webp": "/elevate/static/media/light-coldbrew.6bcdb5da7f65044d9998.webp",
     "index.html": "/elevate/index.html",
     "main.239a7a68.css.map": "/elevate/static/css/main.239a7a68.css.map",
-    "main.5999f7b3.js.map": "/elevate/static/js/main.5999f7b3.js.map"
+    "main.a9f5ea9e.js.map": "/elevate/static/js/main.a9f5ea9e.js.map"
   },
   "entrypoints": [
     "static/css/main.239a7a68.css",
-    "static/js/main.5999f7b3.js"
+    "static/js/main.a9f5ea9e.js"
   ]
 }
